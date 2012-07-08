@@ -1,0 +1,48 @@
+<html>
+	<head></head>
+	<body>
+		<script type="text/javascript">
+			try 
+			{
+				if ( onMain ) ;
+			}
+			catch ( error )
+			{
+				window.location = "http://www.lettier.com/";
+			}
+		</script>
+		<script type="text/javascript" src="assets/scripts/ajaxMailer.min.js"></script>
+		<form name="contact" id="contact" action="" mehtod="post">
+				<br>
+				<font class="main-header"><b>CONTACT</b></font>
+				<br><br>
+				<input id="name" class="input-form-text" type="text" name="name" size="35" value="NAME HERE" onFocus="clearForm( 'name' );" title="Name Here" alt="Name Here">
+				<br><br>
+				<input id="email" class="input-form-text" type="text" name="email" size="35" value="EMAIL ADDRESS HERE" onFocus="clearForm( 'email' );" title="Email Here" alt="Email Here">
+				<br><br>
+				<select id="subject" name="subject" class="input-form-text">
+					<option value="--SELECT A SUBJECT--" selected>--SELECT A SUBJECT--</option>
+					<option value="General">General</option>
+					<option value="Tech Support">Tech Support</option>
+					<option value="Graphic Design">Graphic Design</option>
+					<option value="Advertising">Advertising</option>
+					<option value="LETTiERtv">LETTiERtv</option>
+					<option value="Music">Music</option>
+					<option value="Article Request">Article Request</option>
+				</select> 
+				<br><br>
+				<textarea id="message" class="input-form-text" rows="10" name="message" cols="45" onFocus="clearForm( 'message' );" title="Message Here" alt="Message Here">MESSAGE HERE</textarea>
+				<br><br>
+				<table>
+					<tr>
+						<td>
+							<input id="send" class="input-form-send-button" type="submit" name="send" value="" title="Send" alt="Send">		
+						</td>
+						<td>
+							<div id="response" class="input-form-response"></div>	
+						</td>
+					</tr>
+				</table>
+		</form>
+	</body>
+</html>
