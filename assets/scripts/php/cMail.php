@@ -1,14 +1,14 @@
 <?php
 
 	/*
-	* 
-	* LETTIER 
-	* 
-	* http://www.lettier.com/
-	* 
-	* Handles mail form.
-	* 
-	*/
+	 * 
+	 * David Lettier (C) 2013.
+	 * 
+	 * http://www.lettier.com/
+	 * 
+	 * Handles data from the index.html mail form which is sent via AJAX.
+	 * 
+	 */
 	
 	$to = "contact@lettier.com";
 	$name_field = $_POST[ 'name' ];

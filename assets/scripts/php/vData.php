@@ -1,15 +1,15 @@
 <?php
-	
+
 	/*
-	* 
-	* LETTIER 
-	* 
-	* http://www.lettier.com/
-	* 
-	* Records visitor information.
-	* 
-	*/
-	
+	 * 
+	 * David Lettier (C) 2013.
+	 * 
+	 * http://www.lettier.com/
+	 * 
+	 * Records visitor information.
+	 * 
+	 */
+
 	require( '' ); // needed for user id / pass to database			
 	include( "simple_html_dom.php" );	
 	

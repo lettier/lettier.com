@@ -1,11 +1,15 @@
-/**
- * @author zz85 / https://github.com/zz85 | https://www.lab4games.net/zz85/blog
- * @author lettier http://www.lettier.com/
+/*
  *
+ * David Lettier (C) 2013.
+ * 
+ * http://www.lettier.com/
+ * 
+ * File builds upon original from zz85 (https://github.com/zz85 | https://www.lab4games.net/zz85/blog).
+ * 
+ * Aspect: vec2 of (1/width, 1/height)
  * Edge Detection Shader using Frei-Chen filter
  * Based on http://rastergrid.com/blog/2011/01/frei-chen-edge-detector
- *
- * aspect: vec2 of (1/width, 1/height)
+ * 
  */
 
 THREE.EdgeShader = {

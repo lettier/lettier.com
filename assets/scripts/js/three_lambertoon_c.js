@@ -1,8 +1,15 @@
 /*
-*	Gives THREE.js Lambert Material a Toon / Cel look
-*	
-*	LETTIER: Modified to include shadow map/color.
-*/
+ * 
+ * David Lettier (C) 2013.
+ *
+ * http://www.lettier.com/
+ * 
+ * File builds upon original from (http://www.neocomputer.org/projects/donut/).
+ *
+ * Gives Three.js Lambert Material a toon/cel-shaded look.
+ * Modified to include shadow map/color.
+ *
+ */
 
 THREE.ShaderLib['lambert'].fragmentShader = THREE.ShaderLib['lambert'].fragmentShader.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
 THREE.ShaderLib['lambert'].fragmentShader = "uniform vec3 diffuse;\n" + THREE.ShaderLib['lambert'].fragmentShader.substr(0, THREE.ShaderLib['lambert'].fragmentShader.length-1);

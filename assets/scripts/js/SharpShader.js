@@ -6,8 +6,7 @@
  * 
  * Convolution sharpen filter for Three.js post processing. 
  * 
- * To use:
- * 
+ * To use: 
  * sharp = new THREE.ShaderPass( THREE.SharpShader );					
  * sharp.uniforms[ 'resolution' ].value.set( ( window.innerWidth * dpr ), ( window.innerHeight * dpr ) );
  * sharp.renderToScreen = true;

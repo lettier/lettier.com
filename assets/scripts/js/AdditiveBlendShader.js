@@ -1,8 +1,14 @@
-/**
- * @author stemkoski / http://github.com/stemkoski
- * @author lettier/ http://www.lettier.com/
- * @description: Blend two textures additively.
- *               Uses convolution matrix to sharpen image.
+/*
+ * 
+ * David Lettier (C) 2013.
+ *
+ * http://www.lettier.com/
+ * 
+ * File builds upon original from Stemkoski (http://github.com/stemkoski).
+ * 
+ * Blends two textures additively.
+ * Uses a convolution matrix to sharpen image.
+ * 
  */
 
 THREE.AdditiveBlendShader = {

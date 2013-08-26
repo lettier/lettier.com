@@ -1,10 +1,12 @@
 /*
-* 
-* @author: Lettier
-* @website: http://www.lettier.com/
-* @description: Uses AJAX to pass information from the form to the PHP script mail handler.
-*
-*/
+ * 
+ * David Lettier (C) 2013.
+ * 
+ * http://www.lettier.com/
+ * 
+ * Uses AJAX to pass information from the form to the PHP script mail handler.
+ *
+ */
 
 
 // GLOBALS //
