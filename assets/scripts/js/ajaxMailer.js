@@ -1,3 +1,12 @@
+/*
+* 
+* @author: Lettier
+* @website: http://www.lettier.com/
+* @description: Uses AJAX to pass information from the form to the PHP script mail handler.
+*
+*/
+
+
 // GLOBALS //
 
 var nameClr = 0;

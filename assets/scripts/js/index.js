@@ -1,7 +1,8 @@
 /*
- * @author: Lettier
- * @website: http://www.lettier.com/
- * @description: JS for index.html.
+ * 
+ * @author lettier / http:www.lettier.com/
+ * 
+ * @description: JS file for index.html. Handles 3D/2D/audio interface.
  * 
  */
 
