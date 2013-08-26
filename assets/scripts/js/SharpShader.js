@@ -1,14 +1,18 @@
-/**
- *  @author: Lettier
- * @website: http://www.lettier.com/
- *     @use:
+/*
+ * 
+ * David Lettier (C) 2013.
+ *
+ * http://www.lettier.com/
+ * 
+ * Convolution sharpen filter for Three.js post processing. 
+ * 
+ * To use:
  * 
  * sharp = new THREE.ShaderPass( THREE.SharpShader );					
  * sharp.uniforms[ 'resolution' ].value.set( ( window.innerWidth * dpr ), ( window.innerHeight * dpr ) );
  * sharp.renderToScreen = true;
  * composer.addPass( sharp );
- *
- * @description: Convolution sharpen filter for Three.js post processing. 
+ * 
  */
 
 THREE.SharpShader = {

@@ -1,13 +1,14 @@
 /**
- *  @author: Lettier
- * @website: http://www.lettier.com/
- *     @use:
- * 
- * negative = new THREE.ShaderPass( THREE.NegativeShader );					
- * negative.renderToScreen = true;
- * composer.addPass( negative );
- *
+ * @author: lettier / http://www.lettier.com/
+ *  
  * @description: Negative color shader for Three.js post processing.
+ * 			 
+ *               To use:
+ * 
+ * 			  negative = new THREE.ShaderPass( THREE.NegativeShader );
+ *               negative.renderToScreen = true;
+ *               composer.addPass( negative );
+ * 
  */
 
 THREE.NegativeShader = {
