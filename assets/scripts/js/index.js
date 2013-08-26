@@ -1,8 +1,10 @@
 /*
  * 
- * @author lettier / http:www.lettier.com/
+ * David Lettier (C) 2013.
  * 
- * @description: JS file for index.html. Handles 3D/2D/audio interface.
+ * http:www.lettier.com/
+ * 
+ * JS file for index.html. Handles 3D/2D/audio interface.
  * 
  */
 
