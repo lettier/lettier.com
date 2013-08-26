@@ -1,6 +1,6 @@
 ![Screenshot](https://raw.github.com/lettier/lettier.com/master/screenshot.jpg)
 
-#Lettier.com
+# Lettier.com
 
 https://raw.github.com/lettier/lettier.com/master/screenshot.jpg
 
