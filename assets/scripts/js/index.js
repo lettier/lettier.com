@@ -2,7 +2,7 @@
  * 
  * David Lettier (C) 2013.
  * 
- * http:www.lettier.com/
+ * http:/www.lettier.com/
  * 
  * JS file for index.html. Handles 3D/2D/audio interface.
  * 
@@ -107,8 +107,7 @@ function threeD( )
 	var code_sign;
 	var models_sign;
 	var contact_sign;
-	var pickables = new Array( );
-	
+	var pickables = new Array( );	
 	
 	var mouseOver = -1;
 	var lastMousePos = { x: 0, y: 0 };
@@ -792,14 +791,40 @@ function threeD( )
 		
 		// Play the pop sound effect.
 		
-		if ( soundplaying && audioContext != undefined ) 
+		if ( soundplaying && audioContext != undefined ) // For chrome.
 		{
-			var source = audioContext.createBufferSource();
+			
+			var source = audioContext.createBufferSource( );
 			source.buffer = contactopensoundfx;
 			source.loop = false;
 			source.connect( audioContext.destination );
 			source.buffer.gain = 0.3;
 			source.start( 0 );
+			
+		}
+		else if ( soundplaying && audioContext == undefined ) // For Firefox.
+		{
+			
+			contactopensoundfx = document.createElement( "audio" );
+			contactopensoundfx.src = "assets/sound/ogg/pop.ogg";
+			contactopensoundfx.addEventListener( "ended", function ( ) 
+			{ 
+			
+				try
+				{
+				
+					document.removeChild( contactopensoundfx ); 
+					
+				}
+				catch ( error )
+				{
+				
+				}
+				
+			}, false );
+
+			contactopensoundfx.play();
+			
 		}
 
 		send = document.getElementById( "send" );
@@ -892,6 +917,7 @@ function threeD( )
 				popsrequest.open( 'GET', "assets/sound/ogg/pop.ogg", true );
 				popsrequest.responseType = 'arraybuffer';
 				popsrequest.onload = function ( ) { audioContext.decodeAudioData( popsrequest.response, function ( buffer ) {
+					
 							var soundbuffer = buffer;
 							contactopensoundfx = soundbuffer;
 						} 
@@ -1645,14 +1671,38 @@ function twoD( )
 		};
 		
 		// Play the pop sound effect.
-		if ( soundplaying && audioContext != undefined ) 
+		if ( soundplaying && audioContext != undefined ) // For chrome.
 		{
-			var source = audioContext.createBufferSource();
+			var source = audioContext.createBufferSource( );
 			source.buffer = contactopensoundfx;
 			source.loop = false;
 			source.connect( audioContext.destination );
 			source.buffer.gain = 0.3;
 			source.start( 0 );
+		}
+		else if ( soundplaying && audioContext == undefined ) // For Firefox.
+		{
+			
+			contactopensoundfx = document.createElement( "audio" );
+			contactopensoundfx.src = "assets/sound/ogg/pop.ogg";
+			contactopensoundfx.addEventListener( "ended", function ( ) 
+			{ 
+			
+				try
+				{
+				
+					document.removeChild( contactopensoundfx ); 
+					
+				}
+				catch ( error )
+				{
+				
+				}
+				
+			}, false );
+
+			contactopensoundfx.play();
+			
 		}
 
 		send = document.getElementById( "send" );
