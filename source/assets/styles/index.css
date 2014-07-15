@@ -1,0 +1,387 @@
+/*
+ * 
+ * David Lettier (C) 2014.
+ * 
+ * http://www.lettier.com/
+ * 
+ * Style sheet for ../../index.html.
+ * 
+ */
+
+html
+{
+	
+	height: 100%;
+	
+}
+
+body
+{
+	
+	background: #111;
+	overflow: hidden;
+	margin: 0px;
+	cursor: default;
+	font-family: Verdana, sans-serif;
+	background: #89c6e6;
+	background: -moz-linear-gradient( top, #89c6e6 0%, #f7f3ba 100% );
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0%, #89c6e6 ), color-stop( 100%, #f7f3ba ) );
+	background: -webkit-linear-gradient( top, #89c6e6 0%, #f7f3ba 100% );
+	background: -o-linear-gradient( top, #89c6e6 0%, #f7f3ba 100% );
+	background: -ms-linear-gradient( top, #89c6e6 0%, #f7f3ba 100% );
+	background: linear-gradient( to bottom, #89c6e6 0%, #f7f3ba 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr = '#89c6e6', endColorstr = '#f7f3ba', GradientType = 0 );
+	overflow: hidden;
+	height: auto;
+	width: auto;
+	font-size: 62.5%;
+	
+}
+
+a
+{
+
+	color: #33a3de;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+a:hover
+{
+
+	color: #33a3de;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+textarea
+{
+	
+	font-family: Verdana, sans-serif;
+	
+}
+
+a:visited
+{
+
+	color: #33a3de;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+.overlay_container
+{
+	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #222;
+	background-color: rgba( 20, 20, 20, 0.85 );
+	z-index: 5;
+	
+}
+
+.overlay_content_container
+{
+
+	position: absolute;
+	padding: 10px;
+	padding-top: 0px;
+	left: 0px;
+	top: 0px;
+	width: auto;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 6;
+
+}
+
+.tooltip
+{
+	
+	color: #fff;
+	background-color: rgb( 10, 10, 10 );
+	background-color: rgba( 10, 10, 10, 0.8 );
+	opacity: 0.0;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.2em;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 5px;
+	display: block;
+	z-index: 5;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+.section
+{
+	
+	color: #fff;
+	font-size: 7em;
+	font-weight: bold;
+	line-height: 1.4em;
+	
+}
+
+.subsection
+{
+	
+	color: #fff;
+	font-size: 3.2em;
+	font-weight: bold;
+	line-height: 1.4em;
+	display: block;
+	
+}
+
+.subsubsection
+{
+	
+	color: #fff;
+	font-size: 2.1em;
+	font-weight: normal;
+	line-height: 1.4em;
+	display: block;
+	
+}
+
+.content
+{
+
+	color: #fff;
+	font-size: 1.7em;
+	display: block;
+	line-height: 1.7em;
+
+}
+
+.footnote
+{
+
+	color: #fff;
+	font-size: 1.1em;
+	line-height: 1.7em;
+	display: block;
+
+}
+
+.link
+{
+
+	color: #33a3de;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+.contact_form_text
+{
+	
+	border: 1px solid #CCCCCC;
+	padding-left:  2px;
+	padding-right: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #EEEEEE; 
+	font-size: 1.7em; 
+	color: #000000;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+.contact_form_button
+{
+	
+	width: 100px; 
+	height: 35px; 
+	cursor: pointer; 
+	border: 1px solid #222;
+	padding: 0px;
+	margin-left: -3%;
+	margin-right: 10px;
+	margin-top: 7.4166667%;
+	background: #8ae234;
+	background: rgba( 66, 253, 73, 0.5 );
+	color: #fff;
+	font-weight: bold;
+	font-size: 2em;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+.contact_form_response_container
+{
+	
+	display: block; 
+	font-size: 2em;
+	color: #fff;
+	width: 100%;
+	
+}
+
+.audio_control_button
+{
+
+	margin: 0px;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	display: block;
+	left: 5px;
+	top: 5px;
+	background-color: #111;
+	background-color: rgba( 10, 10, 10, 0.5 );
+	color: #fff;
+	font-size: 5em;
+	font-weight: normal;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 4;
+	visibility: hidden;
+	
+}
+
+.help_button
+{
+
+	margin: 0px;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	display: block;
+	left: 5px;
+	top: 5px;
+	background-color: #111;
+	background-color: rgba( 10, 10, 10, 0.5 );
+	color: #fff;
+	font-size: 5em;
+	font-weight: bold;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 4;
+	visibility: visible;
+	
+}
+
+
+.close_button
+{
+
+	margin: 0px;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	display: block;
+	left: 5px;
+	top: 5px;
+	background-color: #ff5757;
+	background-color: rgba( 255, 36, 36, 0.5 );
+	color: #fff;
+	font-size: 5em;
+	font-weight: bold;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 7;
+	visibility: visible;
+
+}
+
+div::-webkit-scrollbar 
+{
+
+	width: 12px;
+
+}
+ 
+div::-webkit-scrollbar-track 
+{
+
+	background-color: rgba( 20, 20, 20, 0.0 );
+	-webkit-box-shadow: inset 0 0 6px rgba( 0, 0, 0, 0.0 ); 
+	border-radius: 10px;
+
+}
+ 
+div::-webkit-scrollbar-thumb 
+{
+
+	background-color: rgba( 100, 100, 100, 0.1 );
+	border-radius: 10px;
+
+}
+
+div:hover::-webkit-scrollbar-thumb
+{
+
+	background-color: rgba( 255, 255, 255, 0.8 );
+	border-radius: 10px;
+
+}
+
+/* IcoMoon */
+
+@font-face {
+	font-family: 'lettier_icons';
+	src: url( 'assets/styles/fonts/lettier_icons.eot' );
+}
+@font-face {
+	font-family: 'lettier_icons';
+	src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6yAywAAAC8AAAAYGNtYXDmFACHAAABHAAAAERnYXNwAAAAEAAAAWAAAAAIZ2x5ZrLr1xMAAAFoAAABnGhlYWQAiPVrAAADBAAAADZoaGVhB00EOwAAAzwAAAAkaG10eA4AAZAAAANgAAAAFGxvY2EAZAEWAAADdAAAAAxtYXhwAA4ARgAAA4AAAAAgbmFtZeRBnW8AAAOgAAACS3Bvc3QAAwAAAAAF7AAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAACDmAgPA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADAAAAAIAAgAAgAAACDmAv/9//8AAAAg5gD//f///+EaAgADAAEAAAAAAAAAAAABAAH//wAPAAEAAAAAAAAAAAACAAA3OQEAAAAAAwB1ACADiwNgAAUAFQAlAAATESEFEQUBPgEuAScwHgIVFA4CMRc+AS4BJzAeAhUUDgIxdQEAAQD/AAFADgoDDQgVGRUVGRV4FQ0EEgweIh4eIh4CoP5AwANAwP4ASZGPkEc+WmQlJGRZPmtmycnHZFd9izM0inxXAAAAAAEAdQAgAnUDYAAFAAATESEFEQV1AQABAP8AAqD+QMADQMAAAAgApgBoA1wDGgAHABkAHgAiACoAMwA7AEMAADciLgInNxc/AS4DJy4DJy4DJwcBFzcnBwU3JwcXNy4DJwcBLgMvAQEXFwEeAxcBFwEeAxcBuQUHBAIBIEgQnAkRDwwDEyAYEAILEAoGAyoCIwEnyCkBAA3IDOkTDCYyPiUT/qIICgYDAgEBGDUU/s4DEBYYDAEqFv7WBQ0PEAgBF2gCBQYFVUYFLAEICRELAgcWIhwDDA0SCJoBCAEmyieSDMgNpRIpPzMiCxT+UwQMCw4FCQEXNBX+4hUbEggCASUW/uIICgkDAgEZAAABAAAAAQAA+bkr8F8PPPUACwQAAAAAAM7v2IcAAAAAzu/YhwAAAAADiwNgAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAdQOLAAEAAAAAAAAAAAAAAAAAAAAFAAAAAAIAAAAEAAB1BAAAdQQAAKYAAAAAAAoASABaAM4AAQAAAAUARAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABYBDgABAAAAAAABABoAAAABAAAAAAACAA4A7QABAAAAAAADABoArAABAAAAAAAEABoA+wABAAAAAAAFABYAlgABAAAAAAAGAA0AxgABAAAAAAAJAA4ASAABAAAAAAAKACgBFQABAAAAAAALAC4AGgABAAAAAAAMAC4AVgABAAAAAAANABIAhAADAAEECQABABoAAAADAAEECQACAA4A7QADAAEECQADABoArAADAAEECQAEABoA+wADAAEECQAFABYAlgADAAEECQAGABoA0wADAAEECQAJAA4ASAADAAEECQAKACgBFQADAAEECQALAC4AGgADAAEECQAMAC4AVgADAAEECQANABIAhABsAGUAdAB0AGkAZQByAF8AaQBjAG8AbgBzAGgAdAB0AHAAOgAvAC8AdwB3AHcALgBsAGUAdAB0AGkAZQByAC4AYwBvAG0ALwBMAGUAdAB0AGkAZQByAGgAdAB0AHAAOgAvAC8AdwB3AHcALgBsAGUAdAB0AGkAZQByAC4AYwBvAG0ALwAoAEMAKQAgADIAMAAxADMALgBWAGUAcgBzAGkAbwBuACAAMQAuADAAbABlAHQAdABpAGUAcgBfAGkAYwBvAG4Ac2xldHRpZXJfaWNvbnMAbABlAHQAdABpAGUAcgBfAGkAYwBvAG4AcwBSAGUAZwB1AGwAYQByAGwAZQB0AHQAaQBlAHIAXwBpAGMAbwBuAHMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('truetype'),
+		 url(data:application/font-woff;charset=utf-8;base64,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) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="lettier-icon-"], [class*=" lettier-icon-"] {
+	font-family: 'lettier_icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.lettier-icon-audio_on:before {
+	content: "\e600";
+}
+.lettier-icon-audio_off:before {
+	content: "\e601";
+}
+.lettier-icon-blog:before {
+	content: "\e602";
+}
+

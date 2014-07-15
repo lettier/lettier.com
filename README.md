@@ -2,7 +2,7 @@
 
 # Lettier.com
 
-Main website that utilizes a combination of technologies&#8212;such as WebGL, PHP, and HTML5&#8212;to provide either a 3D or 2D interface.
+The main website utilizing a combination of web technologies&#8212;such as WebGL, JavaScript, PHP, and HTML5&#8212;to provide a unique 3D interface.
 
-_(C) 2013 David Lettier._  
+_(C) 2014 David Lettier._  
 http://www.lettier.com/

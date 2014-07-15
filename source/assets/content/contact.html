@@ -1,0 +1,53 @@
+<form name="contact_form" id="contact_form" action="" method="post">
+
+	<span class="section">Contact</span>
+
+	<br><br>
+
+	<input id="contact_form_name_input_field" class="contact_form_text" type="text" name="name" value="Name Here" onFocus="clear_contact_form( 'contact_form_name_input_field' );" title="Name Here" alt="Name Here">
+
+	<br><br>
+
+	<input id="contact_form_email_input_field" class="contact_form_text" type="text" name="email" value="Email Address Here" onFocus="clear_contact_form( 'contact_form_email_input_field' );" title="Email Here" alt="Email Here">
+
+	<br><br>
+
+	<select id="contact_form_subject_selection_field" name="subject" class="contact_form_text">
+
+		<option value="Select a Subject" selected>Select a Subject</option>
+
+		<option value="General">General</option>
+
+		<option value="Tech Support">Tech Support</option>
+
+		<option value="Graphic Design">Graphic Design</option>
+
+	</select>
+
+	<br><br>
+
+	<textarea id="contact_form_message_input_field" class="contact_form_text" rows="10" name="message" onFocus="clear_contact_form( 'contact_form_message_input_field' );" title="Message Here" alt="Message Here">Message Here</textarea>
+
+	<br>
+
+	<table style="width: 100%">
+
+		<tr>
+
+			<td style="vertical-align: top; width: 15%">
+
+				<input id="contact_form_send_button" class="contact_form_button" type="submit" name="send" value="Send" title="Send" alt="Send">&nbsp;
+
+			</td>
+
+			<td style="padding-left: 12px; width: 85%">
+
+				<div id="contact_form_response_container" class="contact_form_response_container">&nbsp;</div>
+
+			</td>
+
+		</tr>
+
+	</table>
+
+</form>
